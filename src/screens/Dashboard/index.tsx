@@ -60,6 +60,7 @@ export function Dashboard(){
                     ref={inputRef}
                 />
             </PageContent>
+
             <ButtonContainer>
                 <Button
                     onPress={search}
@@ -72,6 +73,7 @@ export function Dashboard(){
                     <ButtonText>Limpar</ButtonText>
                 </ButtonClear>
             </ButtonContainer>
+            
             {cepUser && 
                 <ContainerCep>
                     <AreaCep>
